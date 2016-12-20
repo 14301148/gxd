@@ -1,0 +1,33 @@
+package cn.edu.bjtu.weibo.service.impl;
+
+import cn.edu.bjtu.weibo.service.UserFollowingGroupService;
+
+public class UserFollowingGroupServiceImpl implements UserFollowingGroupService {
+
+
+	public boolean andToNewGroup(String userId, String otherUserId,
+			String groupName) {
+		
+		return true;
+	}
+
+	
+	public boolean addToExistedGroup(String userId, String otherUserId,
+			String groupId) {
+	
+		return true;
+	}
+
+
+	public boolean getGroupNames(String userId) {
+	
+		return true;
+	}
+
+
+	public boolean getUsersByGroup(String groupId) {
+		
+		return true;
+	}
+
+}
